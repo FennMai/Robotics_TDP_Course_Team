@@ -28,7 +28,7 @@ Webots是一款专业的移动机器人仿真软件包。
 
 导入已有的模型文件，如下图所示
 
-<img src=".\Webots 快速上手手册.assets\image-20231026153700170.png" alt="image-20231026153700170" style="zoom: 67%;" />
+<img src=".\Webots 快速上手手册.assets\image-20231026153700170.png" alt="image-20231026153700170" style="zoom: 80%;" />
 
 直接在右上角**Find**中输入：soccer，即可找到过往的简易模型
 
