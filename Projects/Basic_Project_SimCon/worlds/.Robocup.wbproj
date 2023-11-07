@@ -1,0 +1,21 @@
+Webots Project File version R2023b
+perspectives: 000000ff00000000fd0000000200000001000002c9000002cafc0200000001fb0000001400540065007800740045006400690074006f00720100000019000002ca0000008900ffffff0000000300000780000000ecfc0100000001fb0000001a0043006f006e0073006f006c00650041006c006c0041006c006c0100000000000007800000006900ffffff000004b5000002ca00000001000000020000000100000008fc00000000
+simulationViewPerspectives: 000000ff0000000100000002000001580000078a0100000002010000000101
+sceneTreePerspectives: 000000ff0000000100000003000000210000016f000000fa0100000002010000000201
+maximizedDockId: -1
+centralWidgetVisible: 1
+orthographicViewHeight: 1
+textFiles: 0 "controllers/robot_basic_control1/robot_basic_control1.c"
+consoles: Console:All:All
+renderingDevicePerspectives: Defender1:CameraBottom;1;1.55833;0.448731;0
+renderingDevicePerspectives: Defender1:CameraTop;1;1.49005;0.678949;0.0069735
+renderingDevicePerspectives: Defender2:CameraBottom;1;0.43125;0;0
+renderingDevicePerspectives: Defender2:CameraTop;1;0.43125;0;0
+renderingDevicePerspectives: Goalkeeper:CameraBottom;1;0.43125;0;0
+renderingDevicePerspectives: Goalkeeper:CameraTop;1;0.43125;0;0
+renderingDevicePerspectives: NAO:CameraBottom;0;0.440625;0;0
+renderingDevicePerspectives: NAO:CameraTop;0;0.45;0.285215;0.405199
+renderingDevicePerspectives: Striker:CameraBottom;1;0.43125;0;0
+renderingDevicePerspectives: Striker:CameraTop;1;0.43125;0;0
+renderingDevicePerspectives: basic_robot_1:CameraBottom;1;1.5;0.227544;0
+renderingDevicePerspectives: basic_robot_1:CameraTop;1;1.49005;0.514805;0

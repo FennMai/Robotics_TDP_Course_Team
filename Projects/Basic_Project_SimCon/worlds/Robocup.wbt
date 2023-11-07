@@ -1,0 +1,35 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/contests/robocup/protos/RobocupSoccerField.proto"
+EXTERNPROTO "../protos/RobocupSoccerBall.proto"
+EXTERNPROTO "../protos/Nao.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.05664587500351584 0.03644626937701554 0.9977288781495622 2.0001753820970225
+  position 0.036582957114903225 -4.369284984533288 0.642115437717416
+  follow "basic_robot_1"
+}
+TexturedBackground {
+  texture "stadium"
+}
+RobocupSoccerField {
+  size "kid"
+}
+Nao {
+  translation -1.5011509009599893 -1.4943372679679954 0.3423643462482311
+  rotation 0.001783347654934948 -0.4655195874193803 0.8850357808586224 0.007360770417685951
+  name "basic_robot_1"
+  version "V5 (blue)"
+  controller "robot_basic_control1"
+}
+RobocupSoccerBall {
+  translation -0.005818844588202712 0.0004795621599381399 0.08117823199561859
+  rotation -0.2611374278146501 -0.9327914375581822 -0.24840969750089945 1.5659996178091098
+}
+TexturedBackgroundLight {
+  texture "stadium"
+}

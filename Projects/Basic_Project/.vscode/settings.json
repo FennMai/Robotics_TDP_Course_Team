@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "robot.h": "c",
+        "camera_recognition_object.h": "c",
+        "types.h": "c",
+        "camera.h": "c",
+        "keyboard.h": "c",
+        "stdlib.h": "c",
+        "accelerometer.h": "c",
+        "string.h": "c"
+    },
+    "cmake.configureOnOpen": false
+}
