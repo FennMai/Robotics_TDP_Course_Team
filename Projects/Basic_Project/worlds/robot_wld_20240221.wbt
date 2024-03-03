@@ -1,0 +1,40 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/contests/robocup/protos/RobocupSoccerField.proto"
+EXTERNPROTO "../protos/RobocupSoccerBall.proto"
+EXTERNPROTO "../protos/Nao.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.20417353462317794 -0.18850360006423508 -0.9606141579855572 4.734689109766665
+  position -0.5792805836369145 -10.452843059446637 4.835813932292076
+}
+TexturedBackground {
+  texture "stadium"
+}
+RobocupSoccerField {
+  size "kid"
+}
+Nao {
+  translation 0.47137557065421515 1.411179506840477 0.34256643059472125
+  rotation 0.001798906573208719 -0.15257863916530107 0.988289695790463 0.022452796418777055
+  name "Striker"
+  version "V5 (blue)"
+  controller "nao_demo_python"
+  channel 1
+}
+Nao {
+  translation -0.825849 -0.978855 0.342566
+  rotation -0.001230210469687111 -0.70063881416441 -0.713515058473533 0.004902718435280991
+  controller "mai_controller_20240208"
+}
+RobocupSoccerBall {
+  translation 1.3523216967089433 1.365801332213162 0.08117823204878072
+  rotation 0.694235018953847 -0.20304341915500457 0.6905151036697147 2.7385615036852684
+}
+TexturedBackgroundLight {
+  texture "stadium"
+}
