@@ -70,10 +70,10 @@ class Nao (Robot):
         # 计算y坐标（z坐标）
         y = (self.Destinations[destID - 1][1][0] + self.Destinations[destID - 1][1][1]) / 2
         center = [x, y]
-	return center
+        return center   
 
     # 使用加速度计进行摔倒检测，判定为摔倒则摔倒标志IS_FALL = True
-    def fallDetectA(self)
+    def fallDetectA(self):
         acc = self.accelerometer.getValues()
         print('----------accelerometer----------')
         print('acceleration: [ x y z ] = [%f %f %f]' % (acc[0], acc[1], acc[2]))
@@ -83,7 +83,7 @@ class Nao (Robot):
             self.IS_FALL = True
             
     # 使用足部触觉传感器进行摔倒检测，判定为摔倒则摔倒标志IS_FALL = True
-    def fallDetectF(self)
+    def fallDetectF(self):
         fsv = []  # force sensor values
 
         fsv.append(self.fsr[0].getValues())
