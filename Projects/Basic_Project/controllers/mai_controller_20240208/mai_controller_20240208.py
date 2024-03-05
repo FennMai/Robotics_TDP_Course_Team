@@ -6,6 +6,7 @@ import _thread
 import random
 import time
 import numpy as np
+from vision import img_process
 
 # load webot
 from controller import Robot
@@ -161,6 +162,8 @@ robot = nao6_define()
 timestep = int(robot.getBasicTimeStep())
 # test，测试，自定义输入目标位置
 goal_Pos =[0,0,0]
+
+test_num = 0
 
 #-------------------------------------------------------#
 def co_wait(duration):
@@ -321,6 +324,13 @@ def cur_motion(goal_Pos):
 # cur_motion(goal_Pos)
 #-------------------------loop--------------------------#
 
+#-------------------------------------------------------#    
+#获取摄像机图像
+        
+
+
+
+
 while robot.step(timestep) != -1:      
     # 测试 
     # real_pos = robot.gps.getValues()
@@ -338,6 +348,10 @@ while robot.step(timestep) != -1:
     cur_motion(goal_Pos)
     
     # pass
+
+    # 测试相机  
+    print(img_process(robot.cameraTop))
+     
 
 
     
