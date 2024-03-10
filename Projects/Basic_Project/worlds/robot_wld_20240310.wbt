@@ -1,0 +1,61 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/contests/robocup/protos/RobocupSoccerField.proto"
+EXTERNPROTO "../protos/RobocupSoccerBall.proto"
+EXTERNPROTO "../protos/Nao.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.3893117952519941 -0.3745555614180754 -0.8415131950768567 4.574451500162164
+  position -0.014574310285868863 -6.48456757068291 7.814366483177493
+}
+TexturedBackground {
+  texture "stadium"
+}
+RobocupSoccerField {
+  size "kid"
+}
+Nao {
+  hidden rotation_21 -1 0 0 1.4292691717483762e-07
+  translation 0 2 0.342486
+  rotation 0.0016931733559759322 -0.15254455946029344 0.9882951434379569 0.022450312565615936
+  name "Striker"
+  version "V5 (blue)"
+  controller "nao_demo_python"
+  channel 1
+}
+Nao {
+  hidden rotation_22 0 1 0 0.9599999992531258
+  hidden rotation_23 0 1 0 0.9599999995178791
+  hidden rotation_24 0 0.9999999999999999 0 0.9599999999026481
+  hidden rotation_25 0 0.9999999999999999 0 0.9599999992531147
+  hidden rotation_26 0 1 0 0.959999999517971
+  hidden rotation_27 0 1 0 0.9599999999026491
+  hidden rotation_29 0 -1 0 0.9599999998786525
+  hidden rotation_34 0 1 0 0.9599999992318393
+  hidden rotation_35 0 1 0 0.9599999995341043
+  hidden rotation_36 0 1 0 0.9599999999116356
+  hidden rotation_37 0 1 0 0.9599999992318888
+  hidden rotation_38 0 1 0 0.9599999995340928
+  hidden rotation_39 0 1 0 0.9599999999116221
+  hidden rotation_41 0 -0.9999999999999999 0 0.9599999998832046
+  translation -0.7754757389504298 0.26818498833208826 0.3424857970378855
+  rotation 0.0017113048046217263 -0.0053241813630853655 0.999984362142068 0.6219351273341782
+  controller "mai_controller_20240223"
+}
+Nao {
+  translation 0.0486047 -0.906927 0.342561
+  rotation 6.020035187717375e-06 0.9999999999818796 -1.0920471480895202e-09 0.0002574260965545764
+  name "NAO(1)"
+  controller "<none>"
+}
+RobocupSoccerBall {
+  translation 0.9046689904376372 1.1608328114062956 0.08148430399999958
+  rotation 0.688820590885756 -0.22690883975648343 0.6885045911336862 2.6958562136635056
+}
+TexturedBackgroundLight {
+  texture "stadium"
+}
