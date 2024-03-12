@@ -346,3 +346,13 @@ motion动作测试
 | left180 | 360   | 16cur_motion --- 转向优先，有bug |
 
 交付完成
+
+#### 20240311：
+
+cost time ：2 hours
+
+finished：
+
+1. compare kick with shoot, kick can save a half of time than before
+2. change the proto of soccerball in webot,  size =1, mass = 0.25kg ---- mass = 0.01 kg
+
